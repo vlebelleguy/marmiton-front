@@ -1,0 +1,113 @@
+/* COMMON */
+
+body {
+  background-color: #efefef;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+section {
+  background-color: white;
+  border-radius: 20px;
+  padding: 60px 30px;
+}
+
+h1 {
+  color: #393c6c;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: #f3735f;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 70px 0 20px 0;
+}
+
+h3 {
+  color: #393c6c;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+/* HEADER */
+
+header {
+  background-color: white;
+  border-bottom: solid 1px #f3735f;
+}
+
+header img {
+  height: 30px;
+  margin: 20px 0;
+}
+
+/* MAIN */
+
+main > div {
+  padding-top: 60px;
+}
+
+.baseline {
+  color: #6c6c6c;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.total {
+  background-color: #8a98b1;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 50px;
+  margin: 30px auto 60px auto;
+  text-align: center;
+  width: 400px;
+}
+
+.recipe-images > img {
+  border-radius: 10px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+  width: 300px;
+}
+
+.recipe-images > img:not(:last-child) {
+  margin-right: 26px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  color: #6c6c6c;
+  list-style: disc;
+  line-height: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  color: #6c6c6c;
+  font-size: 12px;
+  padding: 60px 0;
+  text-align: center;
+}
